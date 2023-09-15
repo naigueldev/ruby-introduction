@@ -1,5 +1,5 @@
 puts '>>> Constantes'
-CONSTANTE = 1_000.freeze
+CONSTANTE = 1_000
 puts CONSTANTE
 CONSTANTE = 2
 puts CONSTANTE
