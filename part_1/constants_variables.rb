@@ -8,13 +8,13 @@ puts '>>> Freeze'
 a = [1,2,3]
 a.freeze
 a << 4
-
+puts a
 b = a
 b << 4
-
+puts b
 a = [4, 5, 6]
 a << 7
-
+puts a
 
 puts '>>> Variáveis'
 
