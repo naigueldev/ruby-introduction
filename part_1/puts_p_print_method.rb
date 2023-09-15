@@ -1,5 +1,7 @@
+
 1 + 1 #não imprime nada
-############################################################## puts method
+
+p '>>> Puts'
 puts 1
 puts 1 + 3
 puts (1 + 3)
@@ -11,14 +13,20 @@ puts 'Feliz dia do "programador"!'
 puts
 
 puts 1, 2, 3
-############################################################## print method
+
+p '>>> Print'
+
 print "Hello world! "
 print "NÃO PULOU A LINHA"
-############################################################## P method
+
+p '>>> p'
 p 1
 p 1 + 3
-puts (1 + 3)
+p (1 + 3)
 p "Hello world!"
+
+
+p '>>> Comparando métodos'
 
 puts "Hello world! \n SERÁ QUE PULA A LINHA?"
 p "Hello world! \n SERÁ QUE PULA A LINHA?"

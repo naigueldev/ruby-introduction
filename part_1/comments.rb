@@ -1,7 +1,7 @@
-puts 'single line'
+puts '>>> single line'
 #Café com pão
 #Café com pão
-puts 'multiline'
+puts '>>> multiline'
 =begin
 Café com pão
 Café com pão

@@ -1,10 +1,10 @@
-puts 'Constantes'
+puts '>>> Constantes'
 CONSTANTE = 1_000.freeze
 puts CONSTANTE
 CONSTANTE = 2
 puts CONSTANTE
 
-puts 'Freeze'
+puts '>>> Freeze'
 a = [1,2,3]
 a.freeze
 a << 4
@@ -16,13 +16,12 @@ a = [4, 5, 6]
 a << 7
 
 
-# puts 'Variáveis'
-# fruta = 'Manga'
-# Fruta = 'Maça'
-# FRUTA = 'Banana'
+puts '>>> Variáveis'
 
-# puts fruta
-# puts Fruta
-# puts FRUTA
+fruta = 'Manga'
+Fruta = 'Maça'
+FRUTA = 'Banana'
 
-#snake_case
+puts fruta
+puts Fruta
+puts FRUTA

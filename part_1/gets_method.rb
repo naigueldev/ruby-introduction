@@ -1,3 +1,4 @@
+puts '>>> Gets method'
 puts 'Qual seu nome?'
 name = gets
 puts "O seu nome é #{name}"
