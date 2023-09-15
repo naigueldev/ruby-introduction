@@ -1,4 +1,4 @@
-puts '>>> Arrays'
+puts '>>> Array'
 
 browsers = %w[Chrome Firefox Safari Opera IE]
 
@@ -12,3 +12,9 @@ browsers.push('DuckDuckGo')
 
 puts "browsers.include?('DuckDuckGo'): #{browsers.include?('DuckDuckGo')}"
 puts "browsers: #{browsers}"
+
+puts '>>> Hash'
+
+options = { font_size: 10, font_family: 'Arial' }
+puts "options font_family: #{options[:font_family]}"
+puts "options keys: #{options.keys}"
