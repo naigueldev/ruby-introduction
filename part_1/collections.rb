@@ -1,6 +1,6 @@
 puts '>>> Arrays'
 
-browsers = ['Chrome', 'Firefox', 'Safari', 'Opera', 'IE']
+browsers = %w[Chrome Firefox Safari Opera IE]
 
 puts "browsers: #{browsers}"
 puts "browsers.length: #{browsers.length}"
